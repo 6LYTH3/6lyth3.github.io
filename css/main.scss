@@ -6,17 +6,22 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Gotham Narrow XLight', 'Helvetica Neue', Helvetica !important;
 $base-font-size:   16px;
 $base-font-weight: 400;
+$base-font-tiny:   100;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #999;
+$background-color: #00070e;
+$brand-color:      #fff;
+
+$blue-color:       #21aeec;
+$line-color:       #666;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

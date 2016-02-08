@@ -82,7 +82,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: $base-font-tiny;
 }
 
 
@@ -91,16 +91,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: #b3b3b3;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $brand-color;
+        text-decoration: none;
     }
 }
 
@@ -129,10 +129,11 @@ blockquote {
  */
 pre,
 code {
+    color: $brand-color;
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid #333;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #333;
 }
 
 code {
