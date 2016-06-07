@@ -3,7 +3,9 @@ layout: post
 title:  "Install WordPress with Docker"
 date:   2016-06-06 18:00:00 +0700
 categories: DevOps
-tags: DevOps
+tags:
+  - WordPress
+  - DevOps
 ---
 จริงๆ แล้วมีหลายวิธีที่สามารถใช้ WordPress บน Docker ซึ่งทาง Docker เองได้เตรียม [Quick start WordPress](https://docs.docker.com/compose/wordpress/) ไว้เหมือนกัน แต่ผมอยากลองทำแบบบ้านๆ ดู เพื่อที่จะไดศึกษาอะไรบ้างนิดหน่อย
 
