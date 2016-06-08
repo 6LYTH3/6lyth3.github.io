@@ -42,9 +42,10 @@ Version: 1.0
 if (have_posts()) {
   while (have_posts()) {
     the_post();
-    //
-    // Post Content here
-    //
+    ?>  
+    <a href="<?php the_permalink(); ?>"><h1><? echo the_title(); ?></h1></a>
+    <? echo the_excerpt(); ?>
+    <?  
     } // end while
   } // end if
 ?>
@@ -52,4 +53,4 @@ if (have_posts()) {
 
 เท่านี้เราก็จะได้ Post ทั้งหมดออกมาแสดงแล้ว
 
-นี้เป็นเพียงการเริ่มต้นสร้าง Theme แบบง่ายๆ จาก 2 ไฟล์พื้นฐานที่สำคัญของ WordPress 
+นี้เป็นเพียงการเริ่มต้นสร้าง Theme แบบง่ายๆ จาก 2 ไฟล์พื้นฐานที่สำคัญของ WordPress
