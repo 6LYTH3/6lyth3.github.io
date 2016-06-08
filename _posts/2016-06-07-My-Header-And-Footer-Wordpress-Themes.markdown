@@ -35,3 +35,15 @@ Copyright 2016
 {% endhighlight %}
 
 โคตร classic เลยสำหรับ Footer
+
+เวลาจะเรียกใช้งาน Header Footer ก็ไม่ยาก เพิ่งแค่ใส่ code ตามนี้
+
+Header เพิ่มในส่วนบนสุดของ file
+{% highlight php %}
+<?php get_header(); ?>
+{% endhighlight %}
+
+Footer เพิ่มในส่วนล่างสุดของ file
+{% highlight php %}
+<?php get_footer(); ?>
+{% endhighlight %}
