@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "สร้าง Function สำหรับ Register Default Function ต่างมายัง Theme ของเรา"
-date:   2016-06-08 13:00:00 +0700
+date:   2016-06-08 13:20:00 +0700
 categories: DevOps
 tags:
 - WordPress
