@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "สร้าง Single Page สำหรับ Theme ของเรา"
-date:   2016-06-07 19:00:00 +0700
+date:   2016-06-08 13:00:00 +0700
 categories: DevOps
 tags:
 - WordPress
