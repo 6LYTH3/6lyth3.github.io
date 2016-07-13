@@ -52,4 +52,4 @@ main:after, footer {
 </body>
 {% endhighlight %}
 
-![Footer](/images/footerx.png)
+![Footer](/images/Footerx.png)
